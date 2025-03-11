@@ -1,6 +1,6 @@
-# Machine Learning Project with Gradio and Web Components
+# Machine Learning Project with Gradio and API with HTML interface 
 
-This project consists of two main components: a Gradio-based interface for direct model interaction and a separate web application with an API backend.
+This project consists of two a Gradio-based interface for direct model interaction and a separate web application with an API backend using flask.
 
 ## Project Structure
 
@@ -8,38 +8,31 @@ This project consists of two main components: a Gradio-based interface for direc
 Assignment2ML/
 ├── gradio_app/      # Standalone Gradio interface
 ├── api/             # Backend API server
-└── frontend/        # React/Vue frontend application
+└── frontend/        # HTML frontend application
 ```
 
 ## Gradio Interface
 
-The Gradio interface provides a standalone, user-friendly way to interact with our machine learning model.
-
-### Features
-- Direct model predictions
-- Interactive input components
-- Real-time results
-
-[Screenshot placeholder: Add a screenshot of the Gradio interface showing the input components and prediction area]
+The Gradio interface provides a easy and user-friendly way to interact with our machine learning model.
 
 ### Running the Gradio App
-1. Navigate to the gradio_app directory
+1. Navigate to the gradio directory
 2. Install requirements
 3. Run the Gradio server
 
 ## Web Application
 
 ### Frontend
-Our web application provides a more customized interface for model interaction.
+Our web application provides a more customized interface for model interaction using HTML and JS.
 
-[Screenshot placeholder: Add a screenshot of the frontend dashboard/main interface]
+
 
 ### API Backend
-The API serves as the bridge between the frontend and the machine learning model.
+The API serves as the bridge between the frontend and the machine learning model using flask API endpoints .
 
 #### API Endpoints
 - `/predict` - Get model predictions
-- `/status` - Check API status
+
 
 [Screenshot placeholder: Add a screenshot of a successful API response using tools like Postman]
 
@@ -52,8 +45,7 @@ The API serves as the bridge between the frontend and the machine learning model
 
 #### Starting the Frontend
 1. Navigate to the frontend directory
-2. Install dependencies
-3. Start the development server
+2. run homepage.html
 
 [Screenshot placeholder: Add a screenshot showing the frontend communicating with the API]
 
@@ -77,10 +69,4 @@ To complete the documentation, add screenshots in the following locations:
    - Location: Under "Running the Web Application" section
    - Content: Show the frontend displaying data from the API
 
-## Contributing
 
-Please read our contributing guidelines before submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
