@@ -25,16 +25,11 @@ The Gradio interface provides a easy and user-friendly way to interact with our 
 ### Frontend
 Our web application provides a more customized interface for model interaction using HTML and JS.
 
-
-
 ### API Backend
 The API serves as the bridge between the frontend and the machine learning model using flask API endpoints .
 
 #### API Endpoints
 - `/predict` - Get model predictions
-
-
-[Screenshot placeholder: Add a screenshot of a successful API response using tools like Postman]
 
 ### Running the Web Application
 
@@ -47,9 +42,13 @@ The API serves as the bridge between the frontend and the machine learning model
 1. Navigate to the frontend directory
 2. run homepage.html
 
-[Screenshot placeholder: Add a screenshot showing the frontend communicating with the API]
-
 ## Screenshots Guide
-
+![gradio1](https://github.com/user-attachments/assets/d3c7f0b0-395a-4bc8-8b1a-cb032a3a29e0)
+![gradio2](https://github.com/user-attachments/assets/53001fff-9244-474e-add3-6ebda8d3cc00)
 ![postman](https://github.com/user-attachments/assets/70da3186-b830-4730-843a-2a349e5c99d6)
+![html form that receive data from API](https://github.com/user-attachments/assets/88f9c811-34fa-4d15-b73a-9b9d831b697c)
+
+
+
+
 
