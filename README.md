@@ -51,22 +51,5 @@ The API serves as the bridge between the frontend and the machine learning model
 
 ## Screenshots Guide
 
-To complete the documentation, add screenshots in the following locations:
-
-1. Gradio Interface
-   - Location: Under "Gradio Interface" section
-   - Content: Show the main Gradio UI with input fields
-
-2. Frontend Dashboard
-   - Location: Under "Frontend" section
-   - Content: Show the main web application interface
-
-3. API Response
-   - Location: Under "API Backend" section
-   - Content: Show a successful API response
-
-4. Frontend-API Integration
-   - Location: Under "Running the Web Application" section
-   - Content: Show the frontend displaying data from the API
-
+![postman](https://github.com/user-attachments/assets/70da3186-b830-4730-843a-2a349e5c99d6)
 
